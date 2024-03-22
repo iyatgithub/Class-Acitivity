@@ -1,0 +1,11 @@
+function update(){
+    console.log('Function is triggered')
+}
+
+ var x = 20;
+ var y = 30;
+ console.log(x*y);
+ function sum(a,b){
+    return a+b;
+ }
+ console.log(sum(x,y));
